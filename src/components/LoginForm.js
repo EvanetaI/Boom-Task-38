@@ -1,6 +1,6 @@
-import styles from "./LoginForm.module.scss";
+import styles from "./LoginForm.module.css";
 
-function App() {
+export function LoginForm() {
   return (
     <form className={styles.form}>
       <label className={styles.label} for="name">name: </label>
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+//export default LoginForm;
